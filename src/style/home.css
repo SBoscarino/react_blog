@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.homeheader{
+  font-size: 50px;
+  text-align: center;
+}
+
+.navbar{
+  width:100%;
+  display:flex;
+  font-family: 'Economica', sans-serif;
+  background-color: #8bb6b2;
+  color:black;
+  font-size: 50px;
+  padding:5px;
+  border-bottom: black 5px solid;
+}
+.navbar div{
+  padding-left: 40px;
+}
+
+.active {
+  color: white;
+}
+
+.headerImage{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: black 5px solid;
+  height:600px;
+  overflow: hidden;
+}
+img{
+  width:100%;
+
+}
