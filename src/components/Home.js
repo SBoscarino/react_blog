@@ -7,7 +7,7 @@ class Home extends Component {
     return(
       <div>
         <h1 className="homeheader">Welcome To This React Blog</h1>
-        <div className="headerImage"><img alt="header image" src="http://www.ruffledfeathersevents.com/wp-content/uploads/2016/09/40574-succulents-nature-plants.jpg" /></div>
+        <div className="headerImage"><img alt="succulent background" src="http://www.ruffledfeathersevents.com/wp-content/uploads/2016/09/40574-succulents-nature-plants.jpg" /></div>
       </div>
 
     )
