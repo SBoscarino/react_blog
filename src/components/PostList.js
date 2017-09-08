@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CreatePost from './CreatePost.js';
-
+import '../style/createPost.css';
 
 class PostList extends Component {
   constructor(){
@@ -16,9 +16,13 @@ class PostList extends Component {
     .then(results => {
       return results.json();
     }).then(data => {
-      console.log(data);
+      console.log('data in component did mount', data);
       this.setState({allPosts: data});
     })
+  }
+
+  getpostdetail() {
+
   }
 
   render(){
@@ -28,9 +32,7 @@ class PostList extends Component {
           {this.state.allPosts.map((post, i) => {
             return(
               <div key={i}>
-                <h1>{post.title}</h1>
-                <h2>{post.author}</h2>
-                <h3>{post.blog}</h3>
+                <h1 Link={'./ShowPost/{post._id}'}>{post.title}</h1>
               </div>
             )
           })}

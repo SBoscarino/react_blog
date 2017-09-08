@@ -35,7 +35,9 @@ class CreatePost extends Component {
     console.log("postHolder in addPost", postHolder);
 
     fetch('https://tiny-lasagna-server.herokuapp.com/collections/blogger/', {
-      method: 'post', body: JSON.stringify()
+      method: 'post', body: JSON.stringify(this.state),
+      headers: { 'Accept': 'application/json',
+      'Content-Type': 'application/json' }
     }).then(function(response){
       return response.json();
     }).then(function(data) {

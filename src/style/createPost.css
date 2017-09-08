@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+.postHeader{
+  font-size: 50px;
+  text-align: center;
+}
+
+.containerFormContainer{
+  border: black 5px solid;
+  background-image: url('http://hbu.h-cdn.co/assets/16/16/980x656/gallery-1461101411-succulent-colors.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  width:90%;
+  margin: auto;
+}
+
+.formContainer {
+  margin-top: 80px;
+  background-color: #6594b0;
+  font-family: 'Economica', sans-serif;
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.form input {
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+}
