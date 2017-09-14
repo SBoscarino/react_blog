@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import CreatePost from './CreatePost.js';
-import '../style/showPost.css';
+import '../style/postList.css';
 
 class PostList extends Component {
   constructor(){
@@ -21,18 +22,14 @@ class PostList extends Component {
     })
   }
 
-  getpostdetail() {
-
-  }
-
   render(){
     return(
       <div className="postContainer">
         <h1>All Posts</h1>
           {this.state.allPosts.map((post, i) => {
             return(
-              <div key={i}>
-                <h1 Link={'./ShowPost/{post._id}'}>{post.title}</h1>
+              <div className="titles" key={i}>
+                <Link to={`/ShowPost/` + post._id}>{post.title}</Link>
               </div>
             )
           })}

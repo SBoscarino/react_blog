@@ -30,16 +30,17 @@ h1 {
   font-size: 20px;
   padding-left: 10px;
   border-radius: 10px;
+  border: solid black 2px;
 }
 
 .form input {
   font-family: 'Economica', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 button {
   background-color: white;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Economica', sans-serif;
   font-size: 20px;
   border-radius: 10px;

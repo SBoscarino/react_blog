@@ -4,6 +4,19 @@ body{
 h1 {
   font-family: 'Permanent Marker', cursive;
 }
-.postContainer {
-  padding-left: 40px;
+.single {
+  width:80%;
+  background-color: rgb(163,121,167);
+  font-size: 30px;
+  margin-left: 30px;
+  padding:10px;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+.title{
+  font-size: 40px;
+  text-decoration: underline;
+}
+.author, .blogbody{
+  padding-left: 15px;
 }

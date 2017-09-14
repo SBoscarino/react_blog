@@ -32,7 +32,7 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   border: black 5px solid;
-  height:600px;
+  background-size: cover;
   overflow: hidden;
 }
 img{

@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+.titles {
+  text-align: center;
+  width:60%;
+  background-color: rgb(163,121,167);
+  font-size: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding:10px;
+  border: black 3px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.titles a {
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color: #7dc9ab;
+}
