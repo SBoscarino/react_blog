@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+.postContainer {
+  padding-left: 40px;
+}

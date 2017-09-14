@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PostList from './PostList.js';
-import '../style/addpost.css';
+import '../style/showPost.css';
 
 
 class ShowPost extends Component {
@@ -20,16 +20,14 @@ class ShowPost extends Component {
     return(
       <div>
         <h1 className="postHeader">Post Detail</h1>
-        <div className="containerFormContainer">
-        <div className="formContainer">
+        <div className="postContainer">
         {this.props.data.map((index, post) => {
           <div>
-            <div>{post.author}</div>
-            <div>{post.blog}</div>
-            <div>{post.title}</div>
+            <div className="author">{post.author}</div>
+            <div className="blogbody">{post.blog}</div>
+            <div className="title">{post.title}</div>
           </div>
         })}
-        </div>
         </div>
       </div>
     );

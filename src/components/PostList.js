@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CreatePost from './CreatePost.js';
-import '../style/createPost.css';
+import '../style/showPost.css';
 
 class PostList extends Component {
   constructor(){
